@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+/***********************************************************HEADER*************************************************/
+
+ header {
+    width: 95%;
+    margin: 0 auto;
+} 
+
+ header img {
+    width: 100%;
+}
+
+/************************************************* FIRST SECTION ******************************************/
+
+.first-section {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.tittle {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    padding: 15px 5px;
+}
+
+.first-section-img {
+    width: 100%;
+}
+
+/************************************* SECOND SECTION ***********************************/
+
+.img-mediaQ-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.img-mediaQ-container img {
+    width: 100%;
+    margin: 15px;
+}
+
+.text-mediaQ-container {
+    padding: 5px;
+}
+
+.last-img-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.last-img-container img {
+    width: 100%;
+}
+
+/********************************************** FOOTER ************************************/
+
+footer {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (min-width: 768px){
+
+    /***********************************************************HEADER*************************************************/
+
+    header img {
+        height: 300px;
+    }
+
+    /************************************* SECOND SECTION ***********************************/
+
+    .last-img-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .first-img, .second-img {
+        width: 45%;
+    }
+
+    .desktop-img , .mobile-img {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    /***********************************************************HEADER*************************************************/
+
+    header img {
+        height: 500px;
+    }
+
+    /************************************************* FIRST SECTION ******************************************/
+
+    .container {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .text-container {
+        width: 50%;
+    }
+  
+    .img-container {
+        width: 45%;
+    }
+
+    /************************************* SECOND SECTION ***********************************/
+
+    .img-mediaQ-container {
+        width: 70%;
+    }
+
+    .desktop-img , .mobile-img {
+        height: 500px;
+    }
+} 
